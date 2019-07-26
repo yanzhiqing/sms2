@@ -14,7 +14,7 @@
                             </select>
                         </div>
                         <div class="row">
-                            <div class="col-sm-12">
+                            <div class="col-sm-12 table-responsive">
                                 <table class="table table-striped">
                                     <tr>
                                         <th>序号</th>
@@ -113,6 +113,10 @@ export default {
 };
 </script>
 <style scoped>
+#content{
+        height: 93vh;
+        overflow-y:scroll;
+    }
     th,td{
         /* border:1px solid #000; */
         text-align:center;

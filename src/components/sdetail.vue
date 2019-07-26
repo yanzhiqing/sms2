@@ -2,16 +2,16 @@
     <div>
         <headtile></headtile>
         <!-- 个人详情表 -->
-        <div class="row" id="content">
+        <div class="row table-responsive" id="content">
             <div class="col">
-            <table class="table ">
+            <table class="table table-striped">
                 <tr>
                     <td>姓名</td>
                     <td>{{detail.student_name}}</td>
                     <td>性别</td>
                     <td>{{detail.gender==0?"女":"男"}}</td>
                     <td rowspan="3">
-                        <img class="w-100" :src="`http://127.0.0.1:3000/${detail.avatar}`" alt="">
+                        <img class="w-100" :src="`http://smstest.applinzi.com/${detail.avatar}`" alt="">
                     </td>
                 </tr>
                 <tr>

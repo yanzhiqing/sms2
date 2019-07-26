@@ -3,9 +3,10 @@
         <headtile></headtile>
         <!-- 成绩表 -->
         <div class="row" id="content">
-            <div class="col">
+            <div class="col table-responsive">
                 <h4 class="title">{{name}}成绩表</h4>
-                <table class="table ">
+                
+                <table class="table table-striped">
                     <tr>
                         <th>序号</th>
                         <th>课程</th>
@@ -70,6 +71,8 @@ export default {
         padding-top:2rem;
         padding-right:2rem;
         padding-left:3rem;
+        height: 93vh;
+        overflow-y:scroll;
     }
     #content>div{
         padding:2rem;

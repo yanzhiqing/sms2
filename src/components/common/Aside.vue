@@ -72,7 +72,7 @@ export default {
         float:left;
         background-color: #fff;
         padding: 0px;
-        height: 40rem;
+        height: 95vh;
         text-align:center;
         transition:width 0.5s linear;
         overflow:hidden;
@@ -82,27 +82,5 @@ export default {
         display:none;
     }*/
     
-     
-     /* @media screen and (max-width:991px){
-        #aside{
-            width:0;
-        }
-    }
-    @media screen and (min-width:992px){
-        #aside{
-            width:10rem;
-        }
-    }
-   
-    
-       @media screen and (max-width:991px) and (min-width:768px){
-        .container-fluid>div{
-            width:50%;
-            margin:0 auto;
-        }
-    }
-    @media screen and (max-width:767px){
-        
-    }*/
 
 </style>

@@ -111,7 +111,7 @@ export default {
                     return;
                 }else{
                     this.islogin=true;
-                    this.userAvatar="http://127.0.0.1:3000/"+result.data[0].avatar;
+                    this.userAvatar="http://smstest.applinzi.com/"+result.data[0].avatar;
                     console
                     .log(result.data[0].avatar)
                 }
